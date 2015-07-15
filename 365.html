@@ -6,7 +6,7 @@ redirect_from: /
 
 <div class="home">
   <div class="post-list">
-    {% for post in site.categories.365 %}
+    {% for post in site.categories.365 limit: 10 %}
       <div class="post">
         <h2>
           <span class="post-link"><a href="{{ post.url | prepend: site_url }}" rel="prefetch">{{ post.title }}</a></span>
@@ -18,7 +18,8 @@ redirect_from: /
       </div>
     {% endfor %}
   </div>
-  <div>
-    <img id="swirly" src="/assets/images/swirly.gif">
+  <div class="infinite-spinner">
+    <div class="sk-child sk-double-bounce1"></div>
+    <div class="sk-child sk-double-bounce2"></div>
   </div>
 </div>
