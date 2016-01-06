@@ -15,7 +15,7 @@ A [Jekyll][1] powered blog, hosted by [GitHub Pages][4] at http://theyearwemet.c
 
 [Guard LiveReload][3] automatically reload your browser when files are modified.
 
-    $ gem install guard-livereload
+    $ PKG_CONFIG_PATH=/usr/local/Cellar/openssl/1.0.2e/lib/pkgconfig/ gem install guard-livereload
     $ guard
 
 Guard LiveReload works in conjunction with [LiveReload plugin for Chrome browser][2].
