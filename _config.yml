@@ -1,6 +1,6 @@
 title: The Year We Met
 description: The personal blog of Arturo Herrero & Irene Alegre
-url: "http://theyearwemet.com"
+url: "http://arturoherrero.github.io/theyearwemet"
 
 markdown: kramdown
 permalink: :title

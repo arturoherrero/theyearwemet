@@ -1,8 +1,8 @@
 # theyearwemet.com
 
-The personal blog of Arturo Herrero & Irene Alegre.
+The personal experiment of Arturo Herrero & Irene Alegre.
 
-A [Jekyll][1] powered blog, hosted by [GitHub Pages][4] at http://theyearwemet.com.
+A [Jekyll][1] powered blog, hosted by [GitHub Pages][4].
 
 
 ## Setup
