@@ -4,7 +4,7 @@ layout: null
 {
   "posts" : [
     {% for post in site.categories.365 %}
-      "{{ post.url }}"{% unless forloop.last %},{% endunless %}
+      "/theyearwemet{{ post.url }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
 }
